@@ -1,0 +1,6 @@
+charts:
+  - cert-manager
+  - external-dns
+  - ingress-nginx
+  - kubernetes-reflector
+repoUrl: <current (this) repo url, dynamically populated by argocd during cluster bootstrapping>
