@@ -2,6 +2,6 @@ apiVersion: v2
 name: kubernetes-reflector
 version: 0.1.0
 dependencies:
-- name: reflector
-  version: 6.0.42
-  repository: https://emberstack.github.io/helm-charts
+  - name: reflector
+    version: 6.0.42
+    repository: https://emberstack.github.io/helm-charts
