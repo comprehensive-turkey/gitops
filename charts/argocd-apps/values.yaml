@@ -3,4 +3,5 @@ charts:
   - external-dns
   - ingress-nginx
   - kubernetes-reflector
+  - nats
 repoUrl: <current (this) repo url, dynamically populated by argocd during cluster bootstrapping>
