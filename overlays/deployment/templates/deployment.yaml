@@ -18,3 +18,4 @@ spec:
         {{ else }}
         image: {{ .Values.name }}:{{ default "latest" .Values.tag }}
         {{ end }}
+        envFrom: {{ .Values.envFrom | toJson | nindent 10 }}

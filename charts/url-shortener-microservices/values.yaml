@@ -2,3 +2,6 @@ deployment:
   name: url-shortener-microservices
   tag: fb96f656c0632559865b73977d6883b90de6b143
   namespace: aliasrahil
+  envFrom:
+    - secretRef:
+        name: db-credentials
