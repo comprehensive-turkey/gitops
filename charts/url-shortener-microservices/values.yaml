@@ -5,3 +5,5 @@ deployment:
   envFrom:
     - secretRef:
         name: db-credentials
+    - configMapRef:
+        name: nats-transporter
