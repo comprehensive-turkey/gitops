@@ -14,7 +14,7 @@ spec:
       containers:
       - name: {{ .Values.name }}
         {{ if .Values.namespace }}
-        image: {{ .Values.namespace }}/{{ .Values.name }}:{{ default latest .Values.tag }}
+        image: {{ .Values.namespace }}/{{ .Values.name }}:{{ default "latest" .Values.tag }}
         {{ else }}
-        image: {{ .Values.name }}:{{ default latest .Values.tag }}
+        image: {{ .Values.name }}:{{ default "latest" .Values.tag }}
         {{ end }}
