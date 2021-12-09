@@ -1,6 +1,6 @@
 deployment:
   name: url-shortener-microservices
-  tag: fb96f656c0632559865b73977d6883b90de6b143
+  tag: f919763bdc6e792017c12dd6aad6daeea08a2697
   namespace: aliasrahil
   envFrom:
     - secretRef:
