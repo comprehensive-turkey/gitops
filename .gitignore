@@ -24,4 +24,4 @@ node_modules/
 *.tgz
 
 # Track chart dependencies
-!charts/**/charts/*.tgz
+!**/charts/*.tgz
