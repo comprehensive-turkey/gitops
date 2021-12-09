@@ -1,0 +1,6 @@
+dependencies:
+- name: deployment
+  repository: file://../../overlays/deployment
+  version: 0.1.0
+digest: sha256:cc48d4e5e1c5d682a9e13a272ad62c55f0e3d55835671cc7c100cf07eaf55122
+generated: "2021-12-09T12:57:44.638579551+05:30"

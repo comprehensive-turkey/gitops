@@ -4,4 +4,5 @@ charts:
   - ingress-nginx
   - kubernetes-reflector
   - nats
+  - url-shortener-microservices
 repoUrl: <current (this) repo url, dynamically populated by argocd during cluster bootstrapping>

@@ -1,0 +1,7 @@
+apiVersion: v2
+name: url-shortener-microservices
+version: 0.1.0
+dependencies:
+  - version: 0.1.0
+    repository: file://../../overlays/deployment
+    name: deployment
